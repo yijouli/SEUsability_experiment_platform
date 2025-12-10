@@ -1,2 +1,2 @@
-# synergy-study
-The infrastructure for the NDSS 2026 work Decompiling the Synergy
+# Decompiling the Syngergy Study
+The infrastructure for the NDSS 2026 (WIP)
