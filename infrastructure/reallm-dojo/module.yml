@@ -1,0 +1,8 @@
+name: REaLLM
+challenges:
+  - id: challenge0
+    name: Warmup
+  - id: challenge1
+    name: Secrets
+  - id: challenge2
+    name: RPC

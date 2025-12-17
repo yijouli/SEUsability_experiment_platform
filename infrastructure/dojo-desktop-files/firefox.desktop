@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Firefox
+Exec=/home/hacker/start-firefox.sh
+Icon=/usr/share/icons/hicolor/128x128/apps/firefox.png
+Type=Application
+Categories=Network;WebBrowser;

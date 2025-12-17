@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=IDA Pro
+Exec=idapro-9
+Icon=/reallm-tools/idapro-reallm-9/appico.png
+Type=Application
+Categories=Development

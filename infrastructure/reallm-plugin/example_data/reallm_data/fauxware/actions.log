@@ -1,0 +1,149 @@
+INFO | 2024-07-22 19:58:56,854 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1947, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 19:58:57,897 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1947, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 19:58:59,289 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1903, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 19:58:59,922 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1849, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 19:59:00,482 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1925, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 19:59:01,446 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1836, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 19:59:05,552 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "my_variable", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 19:59:08,605 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "my_variable"}
+INFO | 2024-07-22 19:59:13,385 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "comment": "This function appears to be the main entry point of a program that asks for a us\nername and password, authenticates the user, and then calls differing functions \nbased on whether the authentication is successful or not.\n", "decompiled": true}
+INFO | 2024-07-22 20:00:26,230 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1998, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:01:57,313 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1893, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:01:58,100 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:01:59,543 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:02:03,356 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "my_variable", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:02:05,350 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1917, "func_addr": 1821, "screen_name": "decompilation", "variable": "v5"}
+INFO | 2024-07-22 20:02:07,642 | reallm_plugin | Querying <function Prompt.query_model.<locals>._query_model at 0x117a78900> for <Function: int main(args=3); @0x71d vars=3 len=0xb8> on 590cee307ed9cd86091db1f611a28e84.c
+INFO | 2024-07-22 20:02:09,822 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "comment": "This function shows a simple authentication routine in a command-line interface.\n It prompts the user for a username and password, reads the input, and uses an a\nuthenticate function to verify the credentials. If authentication fails, it call\ns a rejected function. Lastly, it calls another function regardless of the authe\nntication result.\n", "decompiled": true}
+INFO | 2024-07-22 20:12:24,373 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1840, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:12:58,926 | reallm_plugin | Starting REaLLM Study with prompting style: zero-shot
+INFO | 2024-07-22 20:13:08,164 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1898, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:09,000 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1966, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:10,169 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:13:11,272 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1912, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:13,244 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:13:35,276 | reallm_plugin | Context Changed: {"last_change": null, "addr": 2003, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:36,250 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1979, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:36,947 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1979, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:38,742 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1979, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:39,091 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1998, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:39,780 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1908, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 20:13:40,113 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1925, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 20:13:40,414 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1952, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 20:13:41,469 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1871, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:51,097 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:13:51,876 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1934, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:59,326 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1903, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:13:59,869 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:14:00,291 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:14:01,038 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1880, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:14:04,779 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1858, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:14:06,369 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:14:17,628 | reallm_plugin | Querying (rename_variables, gpt-4o, zero-shot) for <Function: int main(args=3); @0x71d vars=3 len=0xb8> on 5e37221271b354415d45e2ec6fc44f61.c
+INFO | 2024-07-22 20:15:12,817 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:27:28,160 | reallm_plugin | Prompt style changed: few-shot -> 
+INFO | 2024-07-22 20:27:28,160 | reallm_plugin | Starting REaLLM Study with prompting style: 
+INFO | 2024-07-22 20:28:42,994 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1998, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:28:43,619 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1966, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:28:44,073 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1880, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:28:44,519 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1888, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:28:45,583 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:28:48,078 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "my_var", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:28:49,274 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:28:56,584 | reallm_plugin | Querying (rename_variables, gpt-4o, ) for <Function: int main(args=3); @0x71d vars=3 len=0xb8> on 9423afee91c31dd5162158d464499f80.c
+INFO | 2024-07-22 20:29:04,317 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "my_var"}
+INFO | 2024-07-22 20:30:19,086 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:30:19,758 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1979, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:30:20,295 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1939, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:33:01,329 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1840, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:33:23,358 | reallm_plugin | Prompt style changed: few-shot -> zero-shot
+INFO | 2024-07-22 20:33:23,359 | reallm_plugin | Starting REaLLM Study with prompting style: zero-shot
+INFO | 2024-07-22 20:33:26,109 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1942, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:33:27,690 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1893, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:33:28,647 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:33:31,575 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "my_vr", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:33:33,268 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1971, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:33:33,789 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1893, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:36:42,389 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1979, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:40:31,560 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1836, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:38,321 | reallm_plugin | Starting REaLLM Study with prompting style: few-shot
+INFO | 2024-07-22 20:41:40,375 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1844, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:41,300 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1917, "func_addr": 1821, "screen_name": "decompilation", "variable": "v5"}
+INFO | 2024-07-22 20:41:41,884 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1966, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:42,776 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:41:45,238 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "my_buf", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:41:46,779 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1966, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:47,558 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1898, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:48,190 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1966, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:41:53,090 | reallm_plugin | Undoing: {'action': 'hx:Rename'}
+INFO | 2024-07-22 20:42:09,971 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1840, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:42:11,529 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "screen_name": "decompilation", "variable": "argv"}
+INFO | 2024-07-22 20:42:13,120 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "screen_name": "decompilation", "variable": "argv"}
+INFO | 2024-07-22 20:42:15,617 | reallm_plugin | Artifact Changed: {"last_change": null, "name": null, "addr": 1821, "type": null, "args": {"0x1": {"last_change": null, "offset": 1, "name": "my_thing", "type": null, "size": 8}}}
+INFO | 2024-07-22 20:42:19,489 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "screen_name": "decompilation", "variable": "my_thing"}
+INFO | 2024-07-22 20:42:23,808 | reallm_plugin | Artifact Changed: {"last_change": null, "name": null, "addr": 1821, "type": null, "args": {"0x1": {"last_change": null, "offset": 1, "name": null, "type": "int **", "size": 8}}}
+INFO | 2024-07-22 20:42:37,115 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1963, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:42:38,275 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:51:39,495 | reallm_plugin | Starting REaLLM Study with prompting style: few-shot
+INFO | 2024-07-22 20:51:40,660 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1888, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:51:41,122 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:51:45,957 | reallm_plugin | Querying (summarize, gpt-4o, few-shot) for <Function: int main(args=3); @0x71d vars=3 len=0xb8> on 5e37221271b354415d45e2ec6fc44f61.c
+INFO | 2024-07-22 20:51:48,188 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "comment": "This function is an entry point 'main' for a program that takes command-line arg\numents, reads a username and password from standard input, and then authenticate\ns the user using the provided credentials. If authentication fails, it calls a r\nejection function; otherwise, it proceeds with another function call.\n", "decompiled": true}
+INFO | 2024-07-22 20:55:02,994 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:55:58,499 | reallm_plugin | Prompt style changed: few-shot -> zero-shot
+INFO | 2024-07-22 20:55:58,499 | reallm_plugin | Starting REaLLM Study with prompting style: zero-shot
+INFO | 2024-07-22 20:55:59,732 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1920, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 20:56:00,525 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1920, "func_addr": 1821, "screen_name": "disassembly", "variable": null}
+INFO | 2024-07-22 20:56:01,200 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1880, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:56:01,710 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1885, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:56:06,846 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1863, "func_addr": 1821, "screen_name": "decompilation", "variable": "buf"}
+INFO | 2024-07-22 20:56:09,854 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -24, "name": "username", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:56:10,671 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1939, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:56:11,320 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1898, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:56:11,734 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1917, "func_addr": 1821, "screen_name": "decompilation", "variable": "v5"}
+INFO | 2024-07-22 20:56:13,818 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -40, "name": "password", "type": "char[16]", "size": 16, "addr": 1821}
+INFO | 2024-07-22 20:56:15,032 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1939, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:56:17,385 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1939, "func_addr": 1821, "screen_name": "decompilation", "variable": "v4"}
+INFO | 2024-07-22 20:56:19,621 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -44, "name": "null_thing", "type": "int", "size": 4, "addr": 1821}
+INFO | 2024-07-22 20:56:20,569 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1963, "func_addr": 1821, "screen_name": "decompilation", "variable": "username"}
+INFO | 2024-07-22 20:56:21,365 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1917, "func_addr": 1821, "screen_name": "decompilation", "variable": "password"}
+INFO | 2024-07-22 20:56:22,418 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1939, "func_addr": 1821, "screen_name": "decompilation", "variable": "null_thing"}
+INFO | 2024-07-22 20:56:30,433 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "screen_name": "decompilation", "variable": "null_thing"}
+INFO | 2024-07-22 20:56:31,397 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1821, "func_addr": 1821, "screen_name": "decompilation", "variable": "null_thing"}
+INFO | 2024-07-22 20:56:42,615 | reallm_plugin | Artifact Changed: {"last_change": null, "offset": -44, "name": "null_thing", "type": "char", "size": 1, "addr": 1821}
+INFO | 2024-07-22 20:56:45,544 | reallm_plugin | Undoing: {'action': 'hx:SetType'}
+INFO | 2024-07-22 20:56:50,509 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1917, "func_addr": 1821, "screen_name": "decompilation", "variable": "password"}
+INFO | 2024-07-22 20:56:59,481 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1840, "func_addr": 1821, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:03,009 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1789, "func_addr": 1789, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:03,739 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1789, "func_addr": 1789, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:05,970 | reallm_plugin | Artifact Changed: {"last_change": null, "name": "reject", "addr": 1789, "type": null, "args": {}}
+INFO | 2024-07-22 20:57:12,683 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1773, "func_addr": 1773, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:16,111 | reallm_plugin | Artifact Changed: {"last_change": null, "name": "admin_console", "addr": 1773, "type": null, "args": {}}
+INFO | 2024-07-22 20:57:24,243 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1773, "func_addr": 1773, "comment": "this is the admin console\n", "decompiled": true}
+INFO | 2024-07-22 20:57:29,069 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1667, "func_addr": 1636, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:32,022 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1670, "func_addr": 1636, "screen_name": "decompilation", "variable": "a2"}
+INFO | 2024-07-22 20:57:36,556 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": "a1"}
+INFO | 2024-07-22 20:57:41,902 | reallm_plugin | Artifact Changed: {"last_change": null, "name": null, "addr": 1636, "type": null, "args": {"0x0": {"last_change": null, "offset": 0, "name": "password_file", "type": null, "size": 8}}}
+INFO | 2024-07-22 20:57:42,912 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": "a2"}
+INFO | 2024-07-22 20:57:49,135 | reallm_plugin | Artifact Changed: {"last_change": null, "name": null, "addr": 1636, "type": null, "args": {"0x1": {"last_change": null, "offset": 1, "name": "password", "type": null, "size": 8}}}
+INFO | 2024-07-22 20:57:51,447 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1721, "func_addr": 1636, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:57:55,682 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "enums", "variable": null}
+INFO | 2024-07-22 20:57:57,102 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "enums", "variable": null}
+INFO | 2024-07-22 20:57:58,684 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "structs", "variable": null}
+INFO | 2024-07-22 20:58:00,452 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "structs", "variable": null}
+INFO | 2024-07-22 20:58:00,623 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "structs", "variable": null}
+INFO | 2024-07-22 20:58:01,232 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "structs", "variable": null}
+INFO | 2024-07-22 20:58:05,614 | reallm_plugin | Artifact Changed: {"last_change": null, "name": "my_struct", "size": 0, "members": {}}
+INFO | 2024-07-22 20:58:20,541 | reallm_plugin | Context Changed: {"last_change": null, "addr": null, "func_addr": null, "screen_name": "structs", "variable": null}
+INFO | 2024-07-22 20:58:27,971 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1698, "func_addr": 1636, "screen_name": "decompilation", "variable": "password_file"}
+INFO | 2024-07-22 20:58:30,426 | reallm_plugin | Querying (summarize, gpt-4o, zero-shot) for <Function: _BOOL8 authenticate(args=2); @0x664 vars=2 len=0x89> on 944198857176f591ad99a6c2ac3310ce.c
+INFO | 2024-07-22 20:58:32,985 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "comment": "This function authenticates a user by comparing a given password against a store\nd password either in a string or a file. It returns a boolean indicating the mat\nch status.\n", "decompiled": true}
+INFO | 2024-07-22 20:58:35,756 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:58:37,939 | reallm_plugin | Artifact Changed: {"last_change": null, "name": "do_auth", "addr": 1636, "type": null, "args": {}}
+INFO | 2024-07-22 20:58:43,157 | reallm_plugin | Querying (identify_source, gpt-4o, zero-shot) for <Function: _BOOL8 do_auth(args=2); @0x664 vars=2 len=0x89> on d082ee2269d7d330567e1828a5a22e6f.c
+INFO | 2024-07-22 20:58:44,442 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "comment": "https://github.com/ToyoDAdmiral/xenu\n", "decompiled": true}
+INFO | 2024-07-22 20:58:47,670 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:58:48,271 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": null}
+INFO | 2024-07-22 20:58:51,364 | reallm_plugin | Querying (summarize, gpt-4o, zero-shot) for <Function: _BOOL8 do_auth(args=2); @0x664 vars=2 len=0x89> on e0d7b1859eed933599ff6ef56d23aec4.c
+INFO | 2024-07-22 20:58:52,709 | reallm_plugin | Artifact Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "comment": "This function performs password authentication. It takes a password file path an\nd a password as arguments, reads the stored password from the file, and compares\n it to the provided password.\n", "decompiled": true}
+INFO | 2024-07-22 20:58:55,686 | reallm_plugin | Context Changed: {"last_change": null, "addr": 1636, "func_addr": 1636, "screen_name": "decompilation", "variable": "buf"}

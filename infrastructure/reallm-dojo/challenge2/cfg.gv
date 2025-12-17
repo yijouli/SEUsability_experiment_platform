@@ -1,0 +1,34 @@
+digraph "" {
+	"<Function: None sub_13C0(args=0); @0x13c0 vars=0 len=0x39>" -> "<Function: int __cxa_finalize(args=0); @0x11a0 vars=0 len=0xb>";
+	"<Function: None sub_13C0(args=0); @0x13c0 vars=0 len=0x39>" -> "<Function: char * sub_1350(args=0); @0x1350 vars=0 len=0x29>";
+	"<Function: long long sub_1400(args=0); @0x1400 vars=0 len=0x9>" -> "<Function: long long sub_1380(args=0); @0x1380 vars=0 len=0x39>";
+	"<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>" -> "<Function: bool8 is_admin(args=0); @0x1409 vars=0 len=0xb0>";
+	"<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>" -> "<Function: long long load(args=0); @0x14b9 vars=0 len=0x169>";
+	"<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>" -> "<Function: long long xor(args=0); @0x1622 vars=0 len=0x53>";
+	"<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>" -> "<Function: long long min(args=0); @0x1675 vars=0 len=0x1b>";
+	"<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>" -> "<Function: long long sort(args=0); @0x2a62 vars=0 len=0x90>";
+	"<Function: bool8 is_admin(args=0); @0x1409 vars=0 len=0xb0>" -> "<Function: unsigned long long block_decrypt(args=0); @0x2783 vars=0 len=0x95>";
+	"<Function: long long handle_request(args=0); @0x1ad3 vars=0 len=0x80>" -> "<Function: unsigned long long dispatch(args=0); @0x1690 vars=0 len=0x1d4>";
+	"<Function: long long handle_request(args=0); @0x1ad3 vars=0 len=0x80>" -> "<Function: long long recv_session(args=0); @0x19c7 vars=0 len=0x86>";
+	"<Function: long long handle_request(args=0); @0x1ad3 vars=0 len=0x80>" -> "<Function: unsigned long long send_response(args=0); @0x1a4d vars=0 len=0x86>";
+	"<Function: long long recv_session(args=0); @0x19c7 vars=0 len=0x86>" -> "<Function: unsigned long long decode_request(args=0); @0x1864 vars=0 len=0xa5>";
+	"<Function: long long recv_session(args=0); @0x19c7 vars=0 len=0x86>" -> "<Function: long long recv_to_null(args=0); @0x2818 vars=0 len=0x13c>";
+	"<Function: unsigned long long decode_request(args=0); @0x1864 vars=0 len=0xa5>" -> "<Function: char * base64_decode(args=0); @0x1efe vars=0 len=0x305>";
+	"<Function: unsigned long long decode_request(args=0); @0x1864 vars=0 len=0xa5>" -> "<Function: void * decompress(args=0); @0x236c vars=0 len=0xfb>";
+	"<Function: unsigned long long send_response(args=0); @0x1a4d vars=0 len=0x86>" -> "<Function: unsigned long long encode_response(args=0); @0x1909 vars=0 len=0xbe>";
+	"<Function: unsigned long long encode_response(args=0); @0x1909 vars=0 len=0xbe>" -> "<Function: char * base64_encode(args=0); @0x1c75 vars=0 len=0x289>";
+	"<Function: unsigned long long encode_response(args=0); @0x1909 vars=0 len=0xbe>" -> "<Function: void * compress(args=0); @0x2203 vars=0 len=0x169>";
+	"<Function: void request_loop(args=0); @0x1b53 vars=0 len=0x109>" -> "<Function: long long handle_request(args=0); @0x1ad3 vars=0 len=0x80>";
+	"<Function: int main(args=0); @0x1c5c vars=0 len=0x12>" -> "<Function: void request_loop(args=0); @0x1b53 vars=0 len=0x109>";
+	"<Function: None start(args=0); @0x1320 vars=0 len=0x26>" -> "<Function: int main(args=0); @0x1c5c vars=0 len=0x12>";
+	"<Function: unsigned long long block_encrypt(args=0); @0x26ee vars=0 len=0x95>" -> "<Function: long long gen_key(args=0); @0x2467 vars=0 len=0x5c>";
+	"<Function: unsigned long long block_encrypt(args=0); @0x26ee vars=0 len=0x95>" -> "<Function: long long round_key(args=0); @0x24c3 vars=0 len=0x64>";
+	"<Function: unsigned long long block_encrypt(args=0); @0x26ee vars=0 len=0x95>" -> "<Function: long long tea_encrypt(args=0); @0x2527 vars=0 len=0xe2>";
+	"<Function: unsigned long long block_decrypt(args=0); @0x2783 vars=0 len=0x95>" -> "<Function: long long gen_key(args=0); @0x2467 vars=0 len=0x5c>";
+	"<Function: unsigned long long block_decrypt(args=0); @0x2783 vars=0 len=0x95>" -> "<Function: long long round_key(args=0); @0x24c3 vars=0 len=0x64>";
+	"<Function: unsigned long long block_decrypt(args=0); @0x2783 vars=0 len=0x95>" -> "<Function: long long tea_decrypt(args=0); @0x2609 vars=0 len=0xe5>";
+	"<Function: long long heapify(args=0); @0x2988 vars=0 len=0xda>" -> "<Function: long long heapify(args=0); @0x2988 vars=0 len=0xda>";
+	"<Function: long long heapify(args=0); @0x2988 vars=0 len=0xda>" -> "<Function: char * swap(args=0); @0x2954 vars=0 len=0x34>";
+	"<Function: long long sort(args=0); @0x2a62 vars=0 len=0x90>" -> "<Function: long long heapify(args=0); @0x2988 vars=0 len=0xda>";
+	"<Function: long long sort(args=0); @0x2a62 vars=0 len=0x90>" -> "<Function: char * swap(args=0); @0x2954 vars=0 len=0x34>";
+}

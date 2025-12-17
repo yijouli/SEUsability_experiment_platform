@@ -1,0 +1,30 @@
+#!/bin/sh
+
+touch /run/dojo/var/ready
+
+# everything is run as root
+mkdir -p /home/hacker/.idapro
+mv /reallm-tools/idapro-reallm-9/ida.reg /home/hacker/.idapro/ida.reg
+chown -R hacker /home/hacker/.idapro
+chmod -R a+r /home/hacker/.idapro
+cp /challenge/* /home/hacker/
+mkdir -p /home/hacker/Desktop
+cp /reallm-tools/dojo-desktop-files/* /home/hacker/Desktop/
+export PATH="/run/workspace/bin:$PATH"
+export DISPLAY=:0.0
+
+touch /run/dojo/var/ready
+dojo-desktop
+idapro-9 /home/hacker/rpc.out &
+# setup desktop items
+su hacker -c 'echo "chown -R hacker /home/hacker/ && su hacker -c firefox" > /home/hacker/start-firefox.sh'
+su hacker -c 'chmod +x /home/hacker/start-firefox.sh'
+# open sublime
+echo "# RPC Writeup" > /home/hacker/rpc-writeup.md
+subl /home/hacker/rpc-writeup.md &
+# hacker owns home
+chown -R hacker /home/hacker
+xfconf-query -c xfce4-panel -p /panels/panel-2/autohide-behavior -s 2
+
+# add sublime autosave as a feature
+echo '{"save_on_focus_lost": true}' > /home/hacker/.config/sublime-text/Packages/User/Preferences.sublime-settings

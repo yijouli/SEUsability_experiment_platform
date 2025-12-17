@@ -1,0 +1,9 @@
+id: reallm-dojo
+name: REaLLM Dojo
+type: private
+image: sefcom1/reallm-study
+award:
+  emoji: 🔬
+modules:
+  - id: reallm-dojo
+password: hacking_with_llms

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Sublime Text
+Exec=subl
+Icon=/usr/share/icons/hicolor/128x128/apps/sublime-text.png
+Type=Application
+Categories=Development;TextEditor;

@@ -1,0 +1,7 @@
+multimetric
+chardet
+pandas
+tabulate
+pycparser
+networkx
+matplotlib
