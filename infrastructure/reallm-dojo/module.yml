@@ -6,3 +6,5 @@ challenges:
     name: Secrets
   - id: challenge2
     name: RPC
+  - is: pilot_challenge
+    name: OSS
